@@ -12473,3 +12473,8 @@ body.theme-rtl header ul.nav-collapse .themeple_custom_menu_mega_menu ul li ul l
     color: #fff;
 
 }
+.btn-danger {
+    color: #fff;
+    background-color: #000 important;
+    border-color: #d43f3a;
+}

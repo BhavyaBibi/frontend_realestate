@@ -22,6 +22,7 @@
 <![endif]-->
 
     <title>Real Estate</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
 
     <link rel='stylesheet' id='contact-form-7-css' href='css/contact-form-7.css' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-plugin-settings-css' href='css/revslider.css' type='text/css' media='all' />
@@ -33,6 +34,7 @@
     <link rel='stylesheet' id='awesome-css' href='font/css/font-awesome.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='Varela-css' href='http://fonts.googleapis.com/css?family=Varela' type='text/css'
         media='all' />
+
     <link rel='stylesheet' id='Rouge-css' href='http://fonts.googleapis.com/css?family=Rouge+Script' type='text/css'
         media='all' />
     <link rel='stylesheet' id='owl.carousel-css' href='css/owl.carousel.css' type='text/css' media='all' />
@@ -77,10 +79,10 @@
                                                         <a href="#home">Home</a>
                                                     </li>
                                                     <li class="menu-item">
-                                                        <a href="#about">For Sale</a>
+                                                        <a href="#forsale">For Sale</a>
                                                     </li>
                                                     <li class="menu-item">
-                                                        <a href="#events">For Rent</a>
+                                                        <a href="#forrent">For Rent</a>
                                                     </li>
                                                 </ul>
                                             </nav>
@@ -96,10 +98,11 @@
                                             <nav class="pull-left">
                                                 <ul id="menu-menu-right" class="tz-menu nav-collapse themeple_megemenu">
                                                     <li class="menu-item">
-                                                        <a href="#rsvp">Other Properties</a>
+                                                        <a href="#otherp">Other Properties</a>
                                                     </li>
                                                     <li class="menu-item">
-                                                        <a href="#accommodations">Login</a>
+                                                        <a href="#login" data-toggle="modal"
+                                                            data-target="#loginModal">Login</a>
                                                     </li>
 
                                                     <!--<li class="menu-item">
@@ -261,41 +264,59 @@
 
 
         <!--FOR Sale-->
-        <div class="container">
+        <div class="container" id="forsale">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/house10.png" alt="Card image cap">
+                <h3 class="title_ourstory">FOR SALE </h3>
+
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <img class="card-img-top" src="images/house2.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">MODEL APARTMENTS</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/house11.png" alt="Card image cap">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/house10.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            For Rent
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">NEW APARTMENT</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-sm-4">
+                    <div class="card">
                         <img class="card-img-top" src="images/house12.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            For Rent
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">COMFORTABLE APARTMENT</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
+
                         </div>
                     </div>
                 </div>
@@ -304,15 +325,181 @@
 
 
 
-        <!--Testimonials Area-->
+        <!--For Rent-->
+        <div class="container" id="forrent">
+            <div class="row">
+                <h3 class="title_ourstory">FOR RENT </h3>
+
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <img class="card-img-top" src="images/house9.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">MODEL APARTMENTS</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/house3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">NEW APARTMENT</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/house8.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">COMFORTABLE APARTMENT</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-        <!--Accommodations Area-->
+        <!--other properties-->
+
+        <div class="container" id="otherp">
+            <div class="row">
+                <h3 class="title_ourstory">Other Properties </h3>
+
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <img class="card-img-top" src="images/house2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">MODEL APARTMENTS</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/house10.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">NEW APARTMENT</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/house12.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-price">
+                                <strong>$34,900</strong>/Month
+                            </div>
+                            <h5 class="card-title">COMFORTABLE APARTMENT</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.</p>
+                            <a href="#" style="backgroud-colour:#d65679;">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-        <!--Photos Area-->
+        <!--Login-->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-title text-center">
+                            <h4>Login</h4>
+                        </div>
+                        <div class="d-flex flex-column text-center">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email1"
+                                        placeholder="Your email address...">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password1"
+                                        placeholder="Your password...">
+                                </div>
+                                <button type="button" class="btn btn-da btn-block btn-round">Login</button>
+                            </form>
+
+                            <div class="text-center text-muted delimiter">or use a social network</div>
+                            <div class="d-flex justify-content-center social-buttons">
+                                <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                    data-placement="top" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                    data-placement="top" title="Facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip"
+                                    data-placement="top" title="Linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -433,7 +620,14 @@
                 });
             });
         });
+        $(document).ready(function () {
+            $('#loginModal').modal('show');
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        });
     </script>
+
 
 
 </body>
