@@ -1,0 +1,524 @@
+.rev_slider{
+    display:none
+}
+.rev_slider_wrapper{
+    background-color:#E9E9E9;
+    padding:0px;
+}
+
+/*------------------- Revolution slider--------------*/
+.tp-caption.tzcharacters.customin.tp-resizeme{
+    z-index: 2;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.customin.stt.tp-resizeme{
+    z-index: 3;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.customin.stb.tp-resizeme{
+    z-index: 4;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.tztitle2.tp-fade.stt.tp-resizeme{
+    z-index: 3;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.slider_ds.sfb.stb.tp-resizeme{
+    z-index: 5;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.slider_dateevent.sfb.stb.tp-resizeme{
+    z-index: 6;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.slider_dateevent.customin.customout.tp-resizeme{
+    z-index: 7;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.tztitle-slider.sfr.stl.tp-resizeme{
+    z-index: 2;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.tztitle-slider.sfl.str.tp-resizeme{
+    z-index: 3;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-caption.tzcharacters2.customin.customout.tp-resizeme{
+    z-index: 4;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.tp-layer-inner-rotation.tztitle-slide,
+tp-layer-inner-rotation.tztitle-slider{
+    -moz-transform: rotate(334deg);
+    -ms-transform: rotate(334deg);
+    -o-transform: rotate(334deg);
+    -webkit-transform: rotate(334deg);
+    transform: rotate(334deg);
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.tp-layer-inner-rotation tztitle-slider
+.tp-caption.customin.customout{
+    z-index: 2
+}
+.tp-layer-inner-rotation tztitle-slider{
+    -moz-transform: rotate(334deg);
+    -ms-transform: rotate(334deg);
+    -o-transform: rotate(334deg);
+    -webkit-transform: rotate(334deg);
+    transform: rotate(334deg);
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.tp-caption.sfr.str{
+    z-index: 4;
+}
+.tp-caption.tzcharacters{
+    color:#d65679;
+    font-family:"Rouge Script",cursive;
+    font-size:160px;
+    font-weight:400;
+    line-height:144px;
+    margin:0;padding:0px 0px 0px 0px;
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;border-color:rgb(255,255,255);
+    border-style:none
+}
+.tp-caption.tztitle2{
+    color:#444444;
+    font-family:"Rouge Script",cursive;
+    font-size:65px;
+    font-weight:400;
+    line-height:40px;
+    margin:0px;
+    padding:0px 0px 0px 0px;
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;
+    border-color:rgb(255,255,255);
+    border-style:none
+}
+.tp-caption.slider_ds{
+    text-align:center;
+    font-size:12px;
+    line-height:24px;
+    color:#666666;
+    padding:0px 0px 0px 0px;
+    magrin:0;
+    background-color:transparent;
+    text-decoration:none;
+    border-width:0px;
+    border-color:rgb(102,102,102);
+    border-style:none
+}
+.tp-caption.slider_dateevent{
+    text-align:center;
+    font-size:14px;
+    line-height:28px;
+    color:#444444;
+    padding:0px 0px 0px 0px;
+    magrin:0;
+    background-color:transparent;
+    text-decoration:none;
+    border-width:0px;
+    border-color:rgb(68,68,68);
+    border-style:none
+}
+.tp-caption.tzcharacters2{
+    color:#d65679;
+    font-family:"Rouge Script",cursive;
+    font-size:100px;
+    font-weight:400;
+    line-height:124px;
+    margin:0px;padding:0px 0px 0px 0px;
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;
+    border-color:rgb(255,255,255);
+    border-style:none
+}
+.tp-caption.tzcharacters2 i { color: #f16f69}
+.tp-caption.tztitle-slider{
+    color:#fff;
+    font-family:"Rouge Script",cursive;
+    font-size:160px;font-weight:400;
+    line-height:144px;
+    margin:0;
+    padding:0px 0px 0px 0px;
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;
+    border-color:rgb(255,255,255);
+    border-style:none
+}
+.tzcharacters{
+    color:#d65679;
+    font-family:"Rouge Script",cursive;
+    font-size:160px;
+    font-weight:400;
+    line-height:144px;
+    margin:0;
+    padding:0px 0px 0px 0px;
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;
+    border-color:rgb(255,255,255);
+    border-style:none
+}
+.tztitle2{
+    color:#444444;
+    font-family:"Rouge Script",cursive;
+    font-size:65px;
+    font-weight:400;
+    line-height:40px;
+    margin:0px;
+    padding:0px 0px 0px 0px;
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;
+    border-color:rgb(255,255,255);
+    border-style:none
+}
+.slider_ds{
+    text-align:center;
+    font-size:12px;
+    line-height:24px;
+    color:#666666;
+    padding:0px 0px 0px 0px;
+    magrin:0;
+    background-color:transparent;
+    text-decoration:none;
+    border-width:0px;
+    border-color:rgb(102,102,102);
+    border-style:none
+}
+.slider_dateevent{
+    text-align:center;
+    font-size:14px;
+    line-height:28px;
+    color:#444444;
+    padding:0px 0px 0px 0px;
+    magrin:0;
+    background-color:transparent;
+    text-decoration:none;
+    border-width:0px;
+    border-color:rgb(68,68,68);
+    border-style:none
+}
+.tzcharacters2{
+    color:#d65679;
+    font-family:"Rouge Script",cursive;
+    font-size:100px;
+    font-weight:400;
+    line-height:124px;
+    margin:0px;
+    padding:0px 0px 0px 0px;
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;
+    border-color:rgb(255,255,255);
+    border-style:none
+}
+.tztitle-slider{
+    color:#fff;
+    font-family:"Rouge Script",cursive;
+    font-size:160px;
+    font-weight:400;
+    line-height:144px;
+    margin:0;
+    padding:0px 0px 0px 0px;
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;
+    border-color:rgb(255,255,255);
+    border-style:none
+}
+
+.tp-caption a{
+    color:#ff7302;
+    text-shadow:none;
+    -webkit-transition:all 0.2s ease-out;
+    -moz-transition:all 0.2s ease-out;
+    -o-transition:all 0.2s ease-out;
+    -ms-transition:all 0.2s ease-out
+}
+.tp-caption a:hover{
+    color:#ffa902
+}
+
+body#bd {background: #f5f5f5;}
+
+.recentcomments a{
+    display:inline !important;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.vc_custom_1423129790882{
+    background-color: #ffffff !important;
+}
+.vc_custom_1423214383781,
+.vc_custom_1423214402664{
+    background: #ffffff !important;
+}
+.vc_custom_1423198729821{
+    padding-top: 85px !important;
+    padding-bottom: 65px !important;
+    background-color: #f6f6f6 !important;
+}
+.vc_custom_1423129776931{
+    padding-top: 93px !important;
+    padding-bottom: 65px !important;
+    background-color: #ffffff !important;
+}
+.vc_custom_1423134011704{
+    padding-top: 79px !important;
+    padding-bottom: 64px !important;
+    background-color: #ffffff !important;
+}
+
+.vc_custom_1423135509434 {
+    background-color: #ffffff !important;
+    border-top-width: 0 !important;
+    padding-bottom: 65px !important;
+    padding-top: 85px !important;
+}
+.vc_custom_1423135574023 {
+    background-color: #ffffff !important;
+    border-top: 1px solid #f5f5f5 !important;
+}
+.vc_custom_1423214748296 {
+    background-color: #f5f5f5 !important;
+    padding-bottom: 85px !important;
+    padding-top: 59px !important;
+}
+.vc_custom_1423135867032,
+.vc_custom_1423213578883{
+    background-image: url("images/home212.jpg") !important;
+}
+.vc_custom_1423135867032 .overlay_parallax{
+    background-color:rgba(0,0,0,0.3);
+}
+.vc_custom_1423135974488 {
+    background-color: #ffffff !important;
+}
+.vc_custom_1423647303632 {
+    background-color: #ffffff !important;
+    padding-bottom: 108px !important;
+    padding-top: 78px !important;
+}
+
+.bg-video.bg-video-home-1{
+    background: url("http://placehold.it/1920x470") no-repeat  center center / cover  transparent !important;
+}
+.bg-video.bg-video-home-2,
+.vc_custom_1423536877498{
+    background: url("http://placehold.it/1920x925") no-repeat  center center / cover  transparent !important;
+}
+.bg-video.bg-video-home-4{
+    background: url("http://placehold.it/1920x925") no-repeat  center center / cover  transparent !important;
+}
+.bg-video.bg-video-home-rtl{
+    background: url("http://placehold.it/1920x470") no-repeat  center center / cover  transparent !important;
+}
+.vc_custom_1423210762399 {
+    background-color: #ffffff !important;
+    padding-bottom: 50px !important;
+    padding-top: 70px !important;
+}
+.vc_custom_1423210897311 {
+    background-color: #ffffff !important;
+    padding-bottom: 76px !important;
+}
+.vc_custom_1423211165277 {
+    background-color: #ffffff !important;
+    padding-bottom: 65px !important;
+    padding-top: 78px !important;
+}
+.vc_custom_1423214889294 {
+    background-color: #ffffff !important;
+    padding-bottom: 65px !important;
+    padding-top: 96px !important;
+}
+/*-------------- Home 5 ----------------*/
+.vc_custom_1423446327759{
+    background-image: url(http://placehold.it/1170x540) !important;
+}
+.vc_custom_1423446722085{
+    padding-top: 95px !important;
+    padding-bottom: 95px !important;
+    background-color: #ffffff !important;
+}
+.vc_custom_1423645317595{
+    padding-bottom: 30px !important;
+}
+.vc_custom_1423645307398{
+    padding-bottom: 30px !important;
+}
+.vc_custom_1423446640558 {
+    background-color: #ffffff !important;
+    padding-bottom: 77px !important;
+    padding-top: 77px !important;
+}
+.vc_custom_1423446538095 {
+    background-color: #f6f6f6 !important;
+    padding-bottom: 68px !important;
+    padding-top: 78px !important;
+}
+.vc_custom_1423446055850 {
+    background-color: #ffffff !important;
+}
+
+/* ---------------- Blog ------------------*/
+.bg-video.bg-video1{
+    background: url("http://placehold.it/1170x400") no-repeat  center center / cover  transparent !important;
+}
+/*--------------- About ---------------*/
+.vc_custom_1423539216238 {
+    background-color: #ffffff !important;
+    padding-bottom: 38px !important;
+    padding-top: 27px !important;
+}
+.vc_custom_1423539106438 {
+    background-color: #ffffff !important;
+    padding-bottom: 30px !important;
+    padding-top: 98px !important;
+}
+.vc_custom_1423539335742 {
+    background-color: #ffffff !important;
+    padding-bottom: 91px !important;
+}
+/*------------- Services ---------------*/
+
+.vc_custom_1423541675456 {
+    background-color: #f6f6f6 !important;
+    padding-bottom: 60px !important;
+    padding-top: 85px !important;
+}
+.vc_custom_1423541439299 {
+    background-color: #ffffff !important;
+    padding-bottom: 10px !important;
+    padding-top: 60px !important;
+}
+.vc_custom_1423541619123 {
+    background-color: #ffffff !important;
+    padding-bottom: 102px !important;
+}
+.vc_custom_1423539335742 .wpb_wrapper p{
+    text-align: center;
+}
+/*--------------- Contact Us ----------*/
+.vc_custom_1423543196376 {
+    background-color: #ffffff !important;
+    padding-bottom: 38px !important;
+    padding-top: 59px !important;
+}
+.vc_custom_1423542533482 {
+    background-color: #ffffff !important;
+}
+.vc_custom_1423542579311 {
+    background-color: #ffffff !important;
+}
+.vc_custom_1423543278726 {
+    background-color: #ffffff !important;
+    padding-bottom: 56px !important;
+    padding-top: 81px !important;
+}
+.vc_custom_1423214818072 {
+    background-color: #ffffff !important;
+    padding-bottom: 43px !important;
+}
+.vc_custom_1423214960334 {
+    background-color: #ffffff !important;
+    padding-bottom: 70px !important;
+    padding-top: 80px !important;
+}
+/*------------- Coming soon ------------*/
+.tzcomingsoon{
+    background-image: url(http://placehold.it/1920x1045);
+}
+/*------------- cart ------------------*/
+.create-account {
+    visibility: hidden;
+}
+
+/*------------- Product Detail ---------*/
+.product-quick-warp{
+    top: 50%;
+    opacity: 1;
+}
+/*------------ 404 ----------------------*/
+.content-404{
+    background-image: url(images/countdown.jpg)
+}
+/*------------- check out ----------------*/
+.woocommerce form .login,
+.payment_method_cheque .payment_method_cheque,
+.checkout_coupon
+{
+    display: none;
+}
+
+/*------------- contact -----------------*/
+
+.wpb_wrapper .wpb_text_column .wpb_wrapper p{
+    text-align: center;
+}
+
+/*------------- event ------------------*/
+.tribe-bar-date-filter #tribe-bar-date{
+    position: relative;
+}
+/*------------- home 3 -----------------*/
+
+.tzcountdown3 .tzcount-left{
+    background-image: url(images/countdown.jpg)
+}
+.tzimage-content{
+    background-image: url("http://placehold.it/670x325");
+}
+.form7submit .ajax-loader{
+    visibility: hidden;
+}
+/*------------ product category + shop + product category --------*/
+.price_slider,
+.price_label
+{
+    display: none;
+}
+.product-quick-warp{
+    top: 50%;
+    opacity: 1;
+}
+/*----------- product detail ------------*/
+#cancel-comment-reply-link{
+    display: none;
+}
+.pt-70 { padding-top: 70px !important}
